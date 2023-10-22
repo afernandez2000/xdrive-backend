@@ -1,0 +1,4 @@
+org.springframework.test.context.ContextCustomizerFactory = com.xdrive.backend.\
+    config.TestContainersSpringContextCustomizerFactory,com.xdrive.backend.\
+    config.SqlTestContainersSpringContextCustomizerFactory,com.xdrive.backend.\
+    config.KafkaTestContainersSpringContextCustomizerFactory
